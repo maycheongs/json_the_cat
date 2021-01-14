@@ -14,5 +14,5 @@ const breedResults = breed => {
   });
 };
 
-const breed = process.argv[2];
-breedResults(breed);
+const findBreed = process.argv[2];
+breedResults(findBreed);
